@@ -2,3 +2,6 @@
 Bootstrap takes care of most of the css, this is just other colors and
 additional styles I felt were needed
 *************************************************************************/
+body{
+	background-color: #DAF8CF;
+}
