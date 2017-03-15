@@ -5,3 +5,7 @@ additional styles I felt were needed
 body{
 	background-color: #DAF8CF;
 }
+
+.carousel-caption, .carousel-control-prev, .carousel-control-next{
+	color: purple;
+}
