@@ -100,7 +100,7 @@
 			</div>
 
 			<div class="card col-sm-6 col-md-4 mb-2 pt-3" >
-			  <a data-toggle="modal" data-target="#photoviewer">
+			  <a data-toggle="modal" data-target="#photoviewer" onclick="document.getElementById('modalImage').src='img/fullstackmobile.png'"">
 				  <img class="card-img-top img-fluid" src="img/fullstackconf-fullheader.png" alt="Card image cap">
 				  <div class="card-block">
 				    <h4 class="card-title">Full Stack Conf.</h4>
@@ -158,20 +158,31 @@
 	  <div class="modal-dialog modal-lg" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
-	        <h5 class="modal-title">Full Stack Conf. Site</h5>
+	        <h5 class="modal-title text-center">Full Stack Conf. Site</h5>
 	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 	          <span aria-hidden="true">&times;</span>
 	        </button>
 	      </div>
-	      <div class="modal-body">
+	      <div class="modal-body mx-auto">
 	        <img id="modalImage" class="img-fluid" src="img/fullstackcomputer.png" alt="Full Stack Conf Mobile ">
 	      </div>
-	      <div class="modal-footer">
-	       		 <button type="button" class="btn btn-primary" onclick="document.getElementById('modalImage').src='img/fullstackmobile.png'">Mobile Site</button>
-	       		 <button type="button" class="btn btn-primary" onclick="document.getElementById('modalImage').src='img/fullstacktablet.png'">Tablet Site</button>
-				 <button type="button" class="btn btn-primary" onclick="document.getElementById('modalImage').src='img/fullstacknetbook.png'">Netbook Site</button>
-		         <button type="button" class="btn btn-primary" onclick="document.getElementById('modalImage').src='img/fullstackcomputer.png'">Large Screen Site</button>
-		        
+	      <div class="modal-footer text-center">
+	      <div class="container">
+	      	<div class="row">
+	      		<div class="col-md-6 mb-2"> 
+	       		 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstackmobile.png'">Mobile Site</button>
+	       		 </div>
+	       		 <div class="col-md-6 mb-2">
+	       		 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstacktablet.png'">Tablet Site</button>
+	       		 </div>
+	       		 <div class="col-md-6 mb-2">
+				 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstacknetbook.png'">Netbook Site</button>
+				 </div>
+				 <div class="col-md-6 mb-2">
+		         <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstackcomputer.png'">Large Screen Site</button>
+		         </div>
+		         </div>
+		    </div> 
 	    </div>
 	  </div>
 	</div>
