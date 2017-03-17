@@ -2,10 +2,17 @@
 Bootstrap takes care of most of the css, this is just other colors and
 additional styles I felt were needed
 *************************************************************************/
-body{
+.card{
 	background-color: #DAF8CF;
 }
 
-.carousel-caption, .carousel-control-prev, .carousel-control-next{
+.carousel-caption{
 	color: purple;
 }
+
+.carousel-indicators li{
+	background-color: purple;
+}
+
+
+
