@@ -92,7 +92,7 @@
 			</div>
 
 			<div class="card col-sm-6 col-md-4 mb-2 pt-3 mx-auto" >
-			<a data-toggle="modal" data-target="#photoviewer" onclick="document.getElementById('modalImage').src='img/fullstack/fullstackmobile.png'"">
+			<a data-toggle="modal" data-target="#photoviewerjquery" >
 			  <img class="card-img-top img-fluid" src="img/jquery_lightbox/lightbox.png" alt="jQuery Lightbox Project">
 			  <div class="card-block">
 			    <h4 class="card-title">jQuery Lightbox</h4>
@@ -102,7 +102,7 @@
 			</div>
 
 			<div class="card col-sm-6 col-md-4 mb-2 pt-3" >
-			  <a data-toggle="modal" data-target="#photoviewer" onclick="document.getElementById('modalImage').src='img/fullstackmobile.png'"">
+			  <a data-toggle="modal" data-target="#photoviewerfullstack" >
 				  <img class="card-img-top img-fluid" src="img/fullstack/fullstackconf-fullheader.png" alt="Card image cap">
 				  <div class="card-block">
 				    <h4 class="card-title">Full Stack Conf.</h4>
@@ -156,7 +156,7 @@
     <!--=====================================
                   MODAL- Images
     ======================================-->
-	<div class="modal fade" id="photoviewer">
+	<div class="modal fade" id="photoviewerfullstack">
 	  <div class="modal-dialog modal-lg" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
@@ -166,22 +166,56 @@
 	        </button>
 	      </div>
 	      <div class="modal-body mx-auto">
-	        <img id="modalImage" class="img-fluid" src="img/fullstackcomputer.png" alt="Full Stack Conf Mobile ">
+	        <img id="modalImage" class="img-fluid" src="img/fullstack/fullstackmobile.png" alt="Full Stack Conf Mobile ">
 	      </div>
 	      <div class="modal-footer text-center">
 	      <div class="container">
 	      	<div class="row">
 	      		<div class="col-md-6 mb-2"> 
-	       		 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstackmobile.png'">Mobile Site</button>
+	       		 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstack/fullstackmobile.png'">Mobile Site</button>
 	       		 </div>
 	       		 <div class="col-md-6 mb-2">
-	       		 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstacktablet.png'">Tablet Site</button>
+	       		 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstack/fullstacktablet.png'">Tablet Site</button>
 	       		 </div>
 	       		 <div class="col-md-6 mb-2">
-				 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstacknetbook.png'">Netbook Site</button>
+				 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstack/fullstacknetbook.png'">Netbook Site</button>
 				 </div>
 				 <div class="col-md-6 mb-2">
-		         <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstackcomputer.png'">Large Screen Site</button>
+		         <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/fullstack/fullstackcomputer.png'">Large Screen Site</button>
+		         </div>
+		         </div>
+		    </div> 
+	    </div>
+	  </div>
+	</div>
+
+
+	<div class="modal fade" id="photoviewerjquery">
+	  <div class="modal-dialog modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title text-center">jQuery Lightbox</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body mx-auto">
+	        <img id="modalImage" class="img-fluid" src="img/jquery_lightbox.png" alt="jQuery Lightbox">
+	      </div>
+	      <div class="modal-footer text-center">
+	      <div class="container">
+	      	<div class="row">
+	      		<div class="col-md-6 mb-2"> 
+	       		 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/jquery_lightbox/mobile_with.png'">Mobile with lightbox</button>
+	       		 </div>
+	       		 <div class="col-md-6 mb-2">
+	       		 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/jquery_lightbox/mobile_without.png'">Mobile without lightbox</button>
+	       		 </div>
+	       		 <div class="col-md-6 mb-2">
+				 <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/jquery_lightbox/netbook_with.png'">Netbook with lightbox</button>
+				 </div>
+				 <div class="col-md-6 mb-2">
+		         <button type="button" class="btn btn-primary d-inline" onclick="document.getElementById('modalImage').src='img/jquery_lightbox/netbook_without.png'">Netbook without lightbox</button>
 		         </div>
 		         </div>
 		    </div> 
