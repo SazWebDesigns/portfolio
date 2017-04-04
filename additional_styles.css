@@ -17,3 +17,18 @@ additional styles I felt were needed
 a{
 	color:#000;
 }
+
+.social-icon{
+	width:50px;
+}
+.badge-green, #footer{
+	background-color: #A7EF8C;
+}
+
+#footer{
+	margin-bottom:20px;
+}
+
+#footer p{
+	width:90%;
+}
